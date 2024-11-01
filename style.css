@@ -9,3 +9,40 @@
 
 }
 
+body {
+    background-color: #f0f8f0; /* Fundo suave */
+    background-image: url("./img/Cataratas.jpg");
+    background-position: 30px;
+}
+
+.navbar {
+    background-color: #4CAF50; /* Verde escuro */
+}
+
+.navbar .nav-link {
+    color: white; /* Texto branco para links */
+}
+
+.navbar .nav-link.active {
+    font-weight: bold; /* Destacar a aba ativa */
+    border-bottom: 2px solid white; /* Linha embaixo da aba ativa */
+}
+
+.container h1 {
+    color: #4CAF50; /* Verde para o título */
+}
+
+.btn-primary {
+    background-color: #388E3C; /* Verde mais escuro para botão */
+    border-color: #388E3C; /* Mesma cor para a borda */
+}
+
+.btn-primary:hover {
+    background-color: #45a049; /* Efeito hover para o botão */
+    border-color: #45a049;
+}
+
+.col-md-4 h2 {
+    color: #388E3C; /* Verde para os subtítulos */
+}
+
